@@ -1,0 +1,46 @@
+{
+  "name": "meca-digio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Bissuh",
+  "license": "MIT",
+  "engines": {
+    "node": "11.1.0"
+  },
+  "scripts": {
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env production",
+    "dev-server": "webpack-dev-server",
+    "start": "node server/server.js",
+    "heroku-postbuild": "yarn run build:prod"
+  },
+  "dependencies": {
+    "babel-cli": "6.24.1",
+    "babel-core": "6.25.0",
+    "babel-loader": "7.1.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1",
+    "css-loader": "0.28.4",
+    "express": "^4.16.4",
+    "extract-text-webpack-plugin": "3.0.0",
+    "history": "^4.7.2",
+    "node-sass": "4.5.3",
+    "numeral": "2.0.6",
+    "react": "^16.6.0",
+    "react-dom": "^16.3.1",
+    "react-radio-group": "^3.0.3",
+    "react-router-dom": "^4.3.1",
+    "react-url-query": "^1.4.0",
+    "sass-loader": "6.0.6",
+    "style-loader": "0.18.2",
+    "webpack": "3.1.0"
+  },
+  "devDependencies": {
+    "cross-env": "5.0.5",
+    "dotenv": "4.0.0",
+    "webpack-dev-server": "2.5.1"
+  }
+}

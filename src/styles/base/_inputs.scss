@@ -1,0 +1,13 @@
+.input-text {
+    padding: $m-size;
+    outline: none;
+    border: 1px solid $light-grey;
+    width: 100px;
+    font-size: $font-size-large;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

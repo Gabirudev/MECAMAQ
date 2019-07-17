@@ -1,0 +1,19 @@
+.button {
+    background-color: $blue;
+    border: 1px solid $blue;;
+    padding: $m-size $xl-size;
+    color: $off-white;
+    cursor: pointer;
+    font-size: $font-size-large;
+}
+
+.button-link {
+    border: none;
+    padding: $m-size $m-size;
+    color: $off-white;
+    cursor: pointer;
+}
+
+.submit-button {
+    margin-bottom: $xl-size;
+}
